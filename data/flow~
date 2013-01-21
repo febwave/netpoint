@@ -1,0 +1,22 @@
+0 清空界面 
+1 open store 获取数据库对象
+10 释放数据库对象
+11 tcp 简单实现
+12 初始化job-liststore以及界面
+2 填充job list 
+15 释放list以及item的内存
+3 填充选择的job detail
+4 删除选择的job 并更新界面（确定list item 对象）
+5 增加新的job--本地 并更新界面
+6 增加新的job--服务器
+14 显示result界面并挂载事件
+13 初始化result-liststore以及界面
+7 填充job result
+8 填充job detail
+9 删除选择的detail
+17 同步本地和服务器job result
+
+18 解决服务器alarm信号问题--异常
+
+
+

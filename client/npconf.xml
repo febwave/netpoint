@@ -1,0 +1,15 @@
+<application>
+  <semkey value = "8833"/>
+  <server ip = "127.0.0.1" port ="5568"/>
+  <database>
+    <address>127.0.0.1</address>
+    <port>3306</port>
+    <dbinst>pyjob</dbinst>
+    <account name = "dbuser" password = "db12BNe_er"/>		
+  </database>
+
+    <sqlite>
+
+    <cach>info.sqlite</cach>
+  </sqlite>
+</application>

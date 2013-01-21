@@ -1,0 +1,29 @@
+	  /*
+		    sprintf(szSQL,"begin exclusive;");
+		    hRet = slExecText(hSqliteHandle,szSQL,NULL, NULL,&ser);
+
+		    sprintf(szSQL
+			    ,"insert into cpytsk([tid],[tname],[tbegintime],[texpiredtime],[tinterval],[tdata],[ttryid]) values (%d ,'%s','%s','%s',%d,'%s',%d);"
+			    ,11
+			    ,"test1"
+			    ,"2012-09-12 12:23:45"
+			    ,"2013-09-13 12:33:44"
+			    ,10
+			    ,"print 1+2"
+			    ,1);
+
+		    
+		    hRet = slExecText(hSqliteHandle,szSQL,NULL, NULL,&ser);	
+		   
+		    if(SL_FAILED(hRet))
+		    {
+			 sprintf(szSQL,"rollback;");	 
+		    }
+		    else
+		    {
+			 sprintf(szSQL,"commit;");	
+		    }
+		    hRet = slExecText(hSqliteHandle,szSQL,NULL, NULL,&ser);	 
+	  */	    
+
+	  

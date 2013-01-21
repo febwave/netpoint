@@ -1,0 +1,51 @@
+create request
+ri		request id 		1
+rs		request seq		int
+n  		job name 		40 char
+bt  		job begin time 	char
+et		job expired time	char
+iv 		job interval		int
+c		job context 		max 1024 char
+
+response
+ri		request id 		1
+re		request seq		int
+rc		response code		int
+
+i		job id			if error ,set 0
+
+create query
+ri		request id 		2
+rs		request seq		int
+i		job id
+
+
+respone
+ri		request id 		2
+re		request seq		int
+rc		response code		int
+
+ar		repsone array
+:
+{
+	ei		job execute id
+	r		job result
+	rd	 	job response data 
+}
+
+#define JSK_REQ_SEQ "rs"
+#define JSK_REQ_ID "ri"
+#define JSK_JOB_NAME "n"
+#define JSK_JOB_BEGIN_TIME "bt"
+#define JSK_JOB_EXPIRED_TIME "et"
+#define JSK_JOB_INTERVAL "iv"
+#define JSK_JOB_CONTEXT "c"
+#define JSK_RESPONSE_CODE "rc"
+#define JSK_JOB_ID "i"
+#define JSK_ARRA
+Y "ar"
+#define JSK_JOB_EXECUTE_CODE "ec"
+#define JSK_JOB_RESULT "r"
+#define JSK_JOB_RESPONSE_DATA "rd"
+
+
